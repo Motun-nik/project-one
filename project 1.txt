@@ -1,0 +1,22 @@
+# My project brief
+
+## The question
+Which wards in Osogbo have illegal dump sites located near watercourses/drainage 
+channels, putting them at risk of flooding and water contamination?
+
+## The data I need
+- Ward boundaries — GRID3 (Operational Wards v2.0, covers Osun State) — 
+  https://doi.org/10.7916/gpv6-dq34 — 117 MB GeoPackage (national; clip to Osogbo LGA)
+- Settlement extents — GRID3 (Settlement Extents v4.1) — 
+  https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about — 
+  national GeoPackage/Shapefile (clip to Osogbo)
+- Dump sites — GRID3 / eHealth Africa (Osun Dump Sites) — 
+  https://open.africa/dataset/osun-dump-sites — GeoJSON point data
+- Watercourses — OSM via QuickOSM — extracted for Osogbo LGA (QGIS plugin — 
+  search "QuickOSM" in the QGIS Plugin Manager, no separate download link needed)
+- Elevation — Copernicus DEM 30 m — https://portal.opentopography.org — 
+  free account required, clip to Osogbo's bounding box after download
+- Roads (optional, for access/truck-reach context) — GRID3 NGA Roads v1.0 — 
+  https://data.grid3.org/datasets/GRID3::grid3-nga-roads-v1-0/about — 
+  national (clip to Osogbo)
+
